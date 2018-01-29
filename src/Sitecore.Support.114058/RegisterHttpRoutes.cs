@@ -15,7 +15,7 @@
         action = "Index",
         listId = RouteParameter.Optional,
       },
-      new[] { "EmailAddress" });
+      new[] { "Sitecore.Support.114058" });
 
       routes.MapHttpRoute("ListManagement_Import", "sitecore/api/ListManagement/Import/{action}", new
       {
